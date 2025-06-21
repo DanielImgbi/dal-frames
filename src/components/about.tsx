@@ -8,7 +8,7 @@ const timelineItems = [
   {
     year: "2010",
     title: "Founded",
-    description: "Frameit was established with a vision to transform ordinary portraits into extraordinary art pieces.",
+    description: "Destiny's Art Lab was established with a vision to transform ordinary portraits into extraordinary art pieces.",
   },
   {
     year: "2013",

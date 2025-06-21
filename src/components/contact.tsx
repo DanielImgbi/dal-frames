@@ -66,28 +66,28 @@ export default function Contact() {
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
                   Your Name
                 </label>
-                <Input id="name" type="text" placeholder="John Doe" className="w-full" />
+                <Input id="name" type="text" placeholder="John Doe" className="w-full bg-white" />
               </motion.div>
 
               <motion.div variants={itemVariants}>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
                   Email Address
                 </label>
-                <Input id="email" type="email" placeholder="john@example.com" className="w-full" />
+                <Input id="email" type="email" placeholder="john@example.com" className="w-full bg-white" />
               </motion.div>
 
               <motion.div variants={itemVariants}>
-                <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1 ">
                   Subject
                 </label>
-                <Input id="subject" type="text" placeholder="How can we help you?" className="w-full" />
+                <Input id="subject" type="text" placeholder="How can we help you?" className="w-full bg-white" />
               </motion.div>
 
               <motion.div variants={itemVariants}>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
                   Message
                 </label>
-                <Textarea id="message" placeholder="Your message here..." className="w-full min-h-[150px]" />
+                <Textarea id="message" placeholder="Your message here..." className="w-full min-h-[150px] bg-white" />
               </motion.div>
 
               <motion.div variants={itemVariants}>

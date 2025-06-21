@@ -10,7 +10,7 @@ const awards = [
     organization: "International Art & Frame Association",
     year: "2023",
     image: "/placeholder.svg?height=200&width=200",
-    quote: "Frameit demonstrates exceptional skill and attention to detail in every piece they create.",
+    quote: "Destiny's Art Lab demonstrates exceptional skill and attention to detail in every piece they create.",
   },
   {
     title: "Best Custom Framing Service",
@@ -24,7 +24,7 @@ const awards = [
     organization: "Art Conservation Institute",
     year: "2021",
     image: "/placeholder.svg?height=200&width=200",
-    quote: "Frameit's techniques for preserving and enhancing artwork are truly revolutionary.",
+    quote: "Destiny's Art Lab's techniques for preserving and enhancing artwork are truly revolutionary.",
   },
 ]
 
