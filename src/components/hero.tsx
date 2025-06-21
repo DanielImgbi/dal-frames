@@ -5,9 +5,10 @@ import { motion, useScroll, useTransform } from "framer-motion"
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls, Float } from "@react-three/drei"
 import { Button } from "./ui/button"
+import { Group } from "three"
 
 function FrameModel({ mouseX, mouseY }: { mouseX: number, mouseY: number }) {
-  const frameRef = useRef(null)
+  const frameRef = useRef<Group>(null)
 
 
   useEffect(() => {
