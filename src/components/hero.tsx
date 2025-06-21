@@ -100,12 +100,10 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <Button size="lg" className="bg-[#7dc0ba] hover:bg-[#26767CFF] text-white rounded-full px-8 py-3">
+            <Button className="bg-[#7dc0ba] hover:bg-[#26767CFF] text-white rounded-full px-8 py-3">
               Explore Our Work
             </Button>
             <Button
-              variant="outline"
-              size="lg"
               className="border-[#19524d] text-[#7dc0ba] hover:bg-[#d8f0f1] rounded-full px-8 py-3"
             >
               Get a Quote
