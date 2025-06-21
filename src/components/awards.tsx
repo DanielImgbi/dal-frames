@@ -88,7 +88,7 @@ export default function Awards() {
               <p className="text-[#7dc0ba] mb-2">{award.organization}</p>
               <p className="text-gray-500 mb-4">{award.year}</p>
               <blockquote className="italic text-gray-700 border-l-4 border-[#9ac9c5] pl-4 text-left">
-                "{award.quote}"
+                &quot{award.quote}&quot
               </blockquote>
             </motion.div>
           ))}
